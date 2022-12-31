@@ -1,7 +1,11 @@
-# Exercise 1
+print('Exercise 1')
 firstname='Mario'
 print(firstname)
 
-# Exercise 2
+print('Exercise 2')
 Age=25
 print(Age)
+
+print ('Exercise 3')
+sentence= 'Hello, I\'m Mario!'
+print(sentence)
