@@ -15,3 +15,7 @@ amount_1=float(2022.22)
 amount_2=2022.22
 print(amount_1)
 print(amount_2)
+
+print ('Exercise 5')
+var_1, var_2, var_3 = (True, True, True)
+print(var_1, var_2, var_3)
