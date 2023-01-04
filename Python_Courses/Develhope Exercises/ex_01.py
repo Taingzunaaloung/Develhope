@@ -24,3 +24,8 @@ print('Exercise 6')
 my_first_Name = 'Mario'
 print(my_first_Name)
 print('Although the \'2\' after first is not an illegal character, it has been removed to give better meaning to the variable')
+
+print('Exercise 7')
+string='single quote'
+print (string)
+print ("both single and double quotes can be used to define a string and if the string contains one, the other can be used to define the whole string")
