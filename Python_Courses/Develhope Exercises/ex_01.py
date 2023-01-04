@@ -36,3 +36,15 @@ print ('Exercise 8')
 Name, Age, Colour = ('Francis', 20, 'Black')
 print(Name, Age, Colour)
 print('Exercise 5 was initially interpreted as exercise 8, although not inacurrate, i think that was not the thought behind the question and it has been rectified')
+
+print ('Exercise 9')
+a=10
+b='twenty'
+print('Swapping a and b')
+c=a
+a=b
+b=c
+print(a,b)
+print('Alternatively, they can be swapped as follows')
+a, b = b, a
+print (a,b)
