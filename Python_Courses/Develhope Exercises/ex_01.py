@@ -17,7 +17,9 @@ print(amount_1)
 print(amount_2)
 
 print ('Exercise 5')
-var_1, var_2, var_3 = (True, True, True)
+var_1 = ('True')
+var_2 = ('true')
+var_3 = ('True')
 print(var_1, var_2, var_3)
 
 print('Exercise 6')
@@ -29,3 +31,8 @@ print('Exercise 7')
 string='single quote'
 print (string)
 print ("both single and double quotes can be used to define a string and if the string contains one, the other can be used to define the whole string")
+
+print ('Exercise 8')
+Name, Age, Colour = ('Francis', 20, 'Black')
+print(Name, Age, Colour)
+print('Exercise 5 was initially interpreted as exercise 8, although not inacurrate, i think that was not the thought behind the question and it has been rectified')
