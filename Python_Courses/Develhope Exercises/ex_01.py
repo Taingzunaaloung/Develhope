@@ -19,3 +19,8 @@ print(amount_2)
 print ('Exercise 5')
 var_1, var_2, var_3 = (True, True, True)
 print(var_1, var_2, var_3)
+
+print('Exercise 6')
+my_first_Name = 'Mario'
+print(my_first_Name)
+print('Although the \'2\' after first is not an illegal character, it has been removed to give better meaning to the variable')
