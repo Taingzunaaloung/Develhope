@@ -48,3 +48,8 @@ print(a,b)
 print('Alternatively, they can be swapped as follows')
 a, b = b, a
 print (a,b)
+
+print ('Exercise 10')
+print('just realized this question and 9 are subsequent questions of 8, but since i cannot change my repo link, i am creating a new variable to answer this')
+Intro='My name is Francis and I am a Ghanaian'
+len(Intro)
