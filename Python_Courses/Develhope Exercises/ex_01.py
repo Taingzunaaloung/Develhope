@@ -53,3 +53,15 @@ print ('Exercise 10')
 print('just realized this question and 9 are subsequent questions of 8, but since i cannot change my repo link, i am creating a new variable to answer this')
 Intro='My name is Francis and I am a Ghanaian'
 len(Intro)
+
+print ('Exercise 11')
+a = 'hello' #capitalize
+b = 'tom' #uppercase
+c = 'LAURA' #lowercase
+question = 'How are you' #change o in e
+age_question = 'How old are you?' #use the correct method to create a string for each word
+print(a.capitalize())
+print(b.upper())
+print(c.lower())
+print(question.replace('o','e'))
+print(age_question.split()) 
