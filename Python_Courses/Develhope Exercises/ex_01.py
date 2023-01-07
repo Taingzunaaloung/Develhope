@@ -65,3 +65,9 @@ print(b.upper())
 print(c.lower())
 print(question.replace('o','e'))
 print(age_question.split()) 
+
+print('Exercise 12')
+name = 'Francis'
+age = 28
+hello = (f"Hello, My name is {name}! I'm {age} years old.")
+print(hello)
