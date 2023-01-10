@@ -79,3 +79,6 @@ print(x and y)
 
 print('Exercise Operators - 2')
 print(x or y)
+
+print('Exercise Operators - 3')
+print(23 % 7)
