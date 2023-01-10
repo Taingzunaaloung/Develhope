@@ -71,3 +71,7 @@ name = 'Francis'
 age = 28
 hello = (f"Hello, My name is {name}! I'm {age} years old.")
 print(hello)
+
+print('Exercise Operators - 1')
+x =15
+print(x > 20)
