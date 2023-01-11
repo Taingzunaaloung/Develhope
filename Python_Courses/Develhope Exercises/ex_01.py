@@ -96,3 +96,7 @@ print('nike' in brands)
 
 print('Exercise Operators - 7')
 print('reebok' not in brands)
+
+print('Exercise Methods - 1')
+print('In jupyter notebook, there is no need to include the print command to know the data type, or for that matter run any code but i use it because i am coding in vs code')
+print(type(1))
