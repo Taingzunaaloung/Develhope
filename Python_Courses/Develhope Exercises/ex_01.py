@@ -116,3 +116,28 @@ num5 = round(num5)
 ##
 print(num1, num2, num3, num4, num5)
 print(type(num1), type(num2), type(num3), type(num4), type(num5))
+
+print('Exercise Methods - 3')
+num1_str = str(num1)   # question 1
+print(num1_str)
+
+print(len(num1_str))  # question 2. length of string
+print(num1_str[2])  # question 3. third element of string
+print(num1_str[2:6])  # question 4. 3-5 elements of string
+
+if not isinstance(num2, str): # question 5
+    num2 = str(num2)
+print(num2)
+
+if not isinstance(num3, str): # question 6
+    num3 = str(num3)
+print(num3)
+
+string = 'Python is interesting'
+string_with_0 = "0" + string # question 7
+print(string_with_0)
+
+print(string_with_0[:4]) # question 8. characters of string_with_0 from start to position 4
+print(string_with_0[4:]) # question 9. characters of string_with_0 from position 5 until the end
+print(string_with_0[5:8])
+print(string_with_0[-17:-14]) # question 10. negative indexing to reach the "567"
