@@ -100,3 +100,19 @@ print('reebok' not in brands)
 print('Exercise Methods - 1')
 print('In jupyter notebook, there is no need to include the print command to know the data type, or for that matter run any code but i use it because i am coding in vs code')
 print(type(1))
+
+print('Exercise Methods - 2')
+num1 = 12
+num2 = 7.532
+num3 = 6 + 9j
+num4 = 3.234234
+num5 = 8.0349
+##
+num1 = float(num1)
+num2 = int(num2)
+num3 = complex(num3)
+num4 = round(num4)
+num5 = round(num5)
+##
+print(num1, num2, num3, num4, num5)
+print(type(num1), type(num2), type(num3), type(num4), type(num5))
