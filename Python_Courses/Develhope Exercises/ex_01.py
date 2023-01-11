@@ -93,3 +93,6 @@ print(sentence)
 print('Exercise Operators - 6')
 brands = ['adidas', 'balenciaga', 'nike', 'gucci']
 print('nike' in brands)
+
+print('Exercise Operators - 7')
+print('reebok' not in brands)
