@@ -141,3 +141,11 @@ print(string_with_0[:4]) # question 8. characters of string_with_0 from start to
 print(string_with_0[4:]) # question 9. characters of string_with_0 from position 5 until the end
 print(string_with_0[5:8])
 print(string_with_0[-17:-14]) # question 10. negative indexing to reach the "567"
+
+print('Exercise Conditions - 1')
+num1 = 335 
+num2 = 66
+if num1 > num2:
+    print(True)
+else:
+    print(False)
