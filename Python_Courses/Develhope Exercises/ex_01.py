@@ -167,4 +167,12 @@ number2 = random.randint(1, 100)
 if number1 > number2:
     print(f"{number1} greater than {number2}")
 else:
-    number2 = random.randint(1, 100)   
+    number2 = random.randint(1, 100)  
+
+print('Exercise Conditions - 4')
+number1 = random.randint(-100,100)
+number2 = random.randint(-100,100)
+if abs(number1) > abs(number2):
+     print(f"{number1} absolute value greater than {number2}'s absolute value")
+else:
+    number2 = random.randint(-100,100)  
