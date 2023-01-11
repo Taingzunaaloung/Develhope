@@ -85,3 +85,7 @@ print(23 % 7)
 
 print('Exercise Operators - 4')
 print(x or y)
+
+print('Exercise Operators - 5')
+sentence = 'hopefully i understand this correctly'
+print(sentence)
