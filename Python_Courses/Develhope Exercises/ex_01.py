@@ -154,8 +154,17 @@ print('Exercise Conditions - 2')
 number1 = 66 
 number2 = 66
 if number1 > number2:
-    print('number1 is greater than number2')
+    print(f"{number1} is greater than {number2}")
 elif number2 > number1:
-    print('number2 is greater than number1')
+   print(f"{number2} is greater than {number1}") 
 else:
-    print('number2 equals to number1')
+    print(f"{number1} equals to {number2}")
+
+print('Exercise Conditions - 3')
+import random
+number1 = random.randint(1, 100)
+number2 = random.randint(1, 100)
+if number1 > number2:
+    print(f"{number1} greater than {number2}")
+else:
+    number2 = random.randint(1, 100)   
