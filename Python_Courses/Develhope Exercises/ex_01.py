@@ -89,3 +89,7 @@ print(x or y)
 print('Exercise Operators - 5')
 sentence = 'hopefully i understand this correctly'
 print(sentence)
+
+print('Exercise Operators - 6')
+brands = ['adidas', 'balenciaga', 'nike', 'gucci']
+print('nike' in brands)
