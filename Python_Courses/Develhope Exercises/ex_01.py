@@ -75,8 +75,8 @@ print(hello)
 print('Exercise Operators - 1') #Amended
 print(False and True) 
 
-print('Exercise Operators - 2')
-print(x or y)
+print('Exercise Operators - 2') #Amended
+print(False or (0 != 0 or True)) 
 
 print('Exercise Operators - 3')
 print(23 % 7)
