@@ -167,8 +167,10 @@ number1 = random.randint(1, 100)
 number2 = random.randint(1, 100)
 if number1 > number2:
     print(f"{number1} greater than {number2}")
+elif number1 < number2:
+    print(f"{number1} is less than {number2}")
 else:
-    number2 = random.randint(1, 100)  
+    print(f"{number1} is equal to {number2}")  
 
 print('Exercise Conditions - 4')
 number1 = random.randint(-100,100)
