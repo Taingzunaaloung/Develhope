@@ -86,8 +86,10 @@ print('Exercise Operators - 4') #Amended
 print(not ("testing" == "testing" and "Mario" == "Cool Guy")) # Should print True
 
 print('Exercise Operators - 5')
-sentence = 'hopefully i understand this correctly'
-print(sentence)
+firstName = "Mario"
+lastName = "Rossi"
+sentence = f'"{firstName} {lastName}"'
+print(sentence) # Should print "Mario Rossi"
 
 print('Exercise Operators - 6')
 brands = ['adidas', 'balenciaga', 'nike', 'gucci']
