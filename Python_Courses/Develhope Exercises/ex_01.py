@@ -82,8 +82,8 @@ print(False or (0 != 0 or True))  # I don't understand the comment "check the co
 print('Exercise Operators - 3')
 print(23 % 7)
 
-print('Exercise Operators - 4')
-print(x or y)
+print('Exercise Operators - 4') #Amended
+print(not ("testing" == "testing" and "Mario" == "Cool Guy")) # Should print True
 
 print('Exercise Operators - 5')
 sentence = 'hopefully i understand this correctly'
