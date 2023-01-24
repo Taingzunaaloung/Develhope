@@ -189,3 +189,10 @@ i = 1
 while i <6:
     print("*"*i)
     i = i + 1
+
+print ('Iterators - For Loop')
+for i in range(1,6):
+    if i%2==0:
+        continue
+    else:
+        print("*"*i)
