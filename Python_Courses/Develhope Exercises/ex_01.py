@@ -181,3 +181,11 @@ elif abs(number1) < abs(number2):
     print(f"{number1}'s absolute value less than {number2}'s absolute value")
 else:
     print(f"{number1}'s absolute is equal to {number2}'s absolute value")  
+
+print ('PYTHON PART 2')
+
+print ('Iterators - While Loop')
+i = 1 
+while i <6:
+    print("*"*i)
+    i = i + 1
