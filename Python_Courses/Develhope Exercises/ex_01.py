@@ -254,3 +254,9 @@ print ( list1)
 
 dict1["fish"] = 0 # Question 8
 print (dict1)
+
+print ('Exercise 1 - FunctionsS')
+def goodbye():
+    print ('good bye')
+
+goodbye()
