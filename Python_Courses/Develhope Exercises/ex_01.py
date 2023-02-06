@@ -224,3 +224,33 @@ for animal, habitat in dict1.items():  # For dict1
     if habitat == "land":
         print(f"{animal} lives in {habitat}")
 
+
+print ('Data Structures')
+list1 = ["lion", "monkey", "dog","fish"]
+tuple1 = ("lion", "monkey", "dog","fish")
+set1 = {"lion", "monkey", "dog","fish"}
+dict1 = {"lion":4, "monkey":2, "dog":4,"fish":2}
+
+print(len(list1)) # Question 1
+print(len(tuple1)) 
+print(len(set1)) 
+print(len(dict1)) 
+
+print(list1[0])  # Question 2
+print(tuple1[0]) 
+
+print(dict1["lion"]) # Question 3
+
+list1[1] = "rabbit"  # Question 4
+
+# tuple1[1] = "rabbit"  Question 5
+print ('The error --object does not support item assignment-- was returned since tuple as a data structure is immutable, meaning once it is defined, it cannot be altered')
+
+list1.append("monkey")  # Question 6
+print (list1)
+
+list1.remove("rabbit")  # Question 7
+print ( list1)
+
+dict1["fish"] = 0 # Question 8
+print (dict1)
