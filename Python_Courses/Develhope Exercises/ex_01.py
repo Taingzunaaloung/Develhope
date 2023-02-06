@@ -260,3 +260,10 @@ def goodbye():
     print ('good bye')
 
 goodbye()
+
+print ('Exercise 2 - Functions')
+name = ('Adam')
+def goodbye(name):
+    print(f"Good bye {name}")
+
+goodbye(name)S
