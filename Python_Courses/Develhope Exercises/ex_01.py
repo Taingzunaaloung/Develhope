@@ -267,3 +267,9 @@ def goodbye(name):
     print(f"Good bye {name}")
 
 goodbye(name)
+
+print ('Exercise 3 - Functions')
+import os
+
+user = os.getlogin()
+print(user)
