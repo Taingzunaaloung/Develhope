@@ -255,7 +255,7 @@ print ( list1)
 dict1["fish"] = 0 # Question 8
 print (dict1)
 
-print ('Exercise 1 - FunctionsS')
+print ('Exercise 1 - Functions')
 def goodbye():
     print ('good bye')
 
@@ -266,4 +266,4 @@ name = ('Adam')
 def goodbye(name):
     print(f"Good bye {name}")
 
-goodbye(name)S
+goodbye(name)
