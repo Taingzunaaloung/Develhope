@@ -203,3 +203,24 @@ for x in todo:
     if x.upper() == "COFFEE BREAK":
         print(x)
         break
+
+
+print ('Iterators - Exercise 4')
+list1 = ["lion", "monkey", "dog","fish"]
+tuple1 = ("lion", "monkey", "dog","fish")
+set1 = {"lion", "monkey", "dog","fish"}
+dict1 = {"lion":"land", "monkey":"land", "dog":"land","fish":"water"}
+
+for animal in list1: # For list1
+    print(animal)
+
+for animal in tuple1: # For tuple1
+    print(animal)
+
+for animal in set1: # For set1
+    print(animal)
+
+for animal, habitat in dict1.items():  # For dict1
+    if habitat == "land":
+        print(f"{animal} lives in {habitat}")
+
