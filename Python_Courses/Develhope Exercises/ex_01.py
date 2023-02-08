@@ -287,3 +287,12 @@ family_members = [
 ]
 
 greet_family(family=family_members)
+
+
+print ('Exercise 5 - Functions')
+def random_list_summer(n=15):
+  numbers = [random.randint(-100, 100) for i in range(n)]
+  print("List of random numbers:", numbers)
+  print("Sum of elements in the list:", sum(numbers))
+
+random_list_summer()
