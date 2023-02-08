@@ -273,3 +273,17 @@ import os
 
 user = os.getlogin()
 print(user)
+
+print ('Exercise 4 - Functions')
+def greet_family(name="John", surname="Doe", family=[]):
+  print("Hello %s %s!" % (name, surname))
+  for member in family:
+    print("Hello %s %s!" % (member["name"], member["surname"]))
+
+family_members = [
+    {"name": "Tristram", "surname": "Mcbride"},
+    {"name": "Baldwin", "surname": "Preston"},
+    {"name": "Wally", "surname": "Collins"},
+]
+
+greet_family(family=family_members)
