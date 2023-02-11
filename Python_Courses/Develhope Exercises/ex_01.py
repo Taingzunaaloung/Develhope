@@ -373,3 +373,17 @@ print(animal.return_legs())
 print(animal._number_of_legs)
 number_of_legs = animal.return_legs()
 animal.new_number_of_legs()
+
+class Dog(Animal):
+    def __init__(self, legs_count, name):
+        super().__init__(legs_count)
+        self.__name = name
+        
+    def bark(self):
+        print ("woof woof")
+        
+dog = Dog(4, "Rascal")
+name_of_dog = dog._Dog__name
+print(name_of_dog)
+dog.bark()
+dog.count_legs()
