@@ -296,3 +296,15 @@ def random_list_summer(n=15):
   print("Sum of elements in the list:", sum(numbers))
 
 random_list_summer()
+
+print ('Exercise 6 - Functions')
+def fibonacci(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+fibonacci_sequence = [fibonacci(i) for i in range(5)]
+print(fibonacci_sequence)
