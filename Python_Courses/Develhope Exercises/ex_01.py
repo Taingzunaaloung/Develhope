@@ -348,3 +348,28 @@ animal.runs()
 animal.count_legs()
 number_of_legs = animal.return_legs()
 print('Number of legs:',number_of_legs)
+
+print ('Classes and Objects - Exercise 3')
+class Animal:
+    def __init__(self,legs_count):
+        print("Animal object was created")
+        self._number_of_legs = legs_count
+
+    def runs(self):
+        print("Running started")
+
+    def count_legs(self):
+        print(f"It has {self._number_of_legs}")
+
+    def return_legs(self):
+        return self._number_of_legs
+    
+    def new_number_of_legs(self):
+        return self._number_of_legs
+        
+animal= Animal(4)
+animal.count_legs()
+print(animal.return_legs())
+print(animal._number_of_legs)
+number_of_legs = animal.return_legs()
+animal.new_number_of_legs()
