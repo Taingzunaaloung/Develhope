@@ -374,6 +374,7 @@ print(animal._number_of_legs)
 number_of_legs = animal.return_legs()
 animal.new_number_of_legs()
 
+print ('Classes and Objects - Exercise 4')
 class Dog(Animal):
     def __init__(self, legs_count, name):
         super().__init__(legs_count)
