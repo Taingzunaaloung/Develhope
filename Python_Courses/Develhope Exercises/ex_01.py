@@ -315,3 +315,15 @@ my_list= [*range(5)]
 even_squared = lambda x: x**2 if x % 2 == 0 else x
 result = list(map(even_squared, my_list))
 print(result)
+
+print ('Classes and Objects - Exercise 1')
+class Animal:
+    def __init__(self, legs):
+        self.legs = legs
+        print("Animal object was created")
+    
+    def runs(self):
+        print("Running started")
+
+animal = Animal(4)
+animal.runs()
